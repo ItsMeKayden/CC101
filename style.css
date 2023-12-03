@@ -1,0 +1,270 @@
+body{
+    background-image: url(https://media.tenor.com/XxTjC4qBdJAAAAAi/borboletas-butterflies.gif);
+    background-size: cover;
+    background-color: #F6E5D9;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;    
+}
+
+hr{
+    border-color: #D1966A;
+}
+
+.it{
+color: #8A663F;
+}
+
+.container-info{
+    display: flex;
+    margin-top: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65rem;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 210px;
+    box-shadow: 3px 3px 10px 3px #8A663F;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.info{
+    display: flex;
+}
+
+.info-text{
+    font-family: 'Poppins', sans-serif;
+    padding-left: 10px;
+    font-size: 19px;
+    margin-left: 20px;
+    margin-top: 30px;
+    cursor: default;
+}
+
+a{
+    cursor: default;
+}
+
+.info-text h2{
+    font-weight: lighter;
+    margin-bottom: -20px;
+}
+
+.pic{
+    border: 1px solid #8A663F;
+    width: 300px;
+    height: auto;
+    float: left;
+    border-radius: 20px;
+}
+
+.btn-container{
+    position: absolute;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    top: 30.5rem;
+}
+ 
+
+.about, .music {
+    border: 1px solid #8A663F;
+    background-color: #8A663F;
+    width: 110px;
+    height: 40px;
+    margin-right: 20px;
+    border-radius: 20px;
+    color: #fff;
+    transition: 0.2s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.about:hover, .music:hover {
+    color: black;
+    transform: scale(0.95,0.95);
+}
+
+/*================================================ABOUT===============================================*/
+#about{
+    height: 95vh;
+    width: 100%;
+    margin-top: 20rem;
+}
+
+.container-about{
+    justify-content: center;
+    padding: 0 100px;
+}
+
+.about-section{
+    position: relative;
+}
+
+.about-title{
+    color: #8A663F;
+    font-size: 40px;
+    margin-left: 50px;
+    cursor: default;
+}
+
+.about-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 150px;
+}
+
+.edu, .place, .basic-info, .contact{
+    display: inline;
+    width: 450px;
+    height: 40px;
+    border: 1px solid #8A663F;
+    background-color: #8A663F;
+    color: white;
+}
+
+h3{
+    position: relative;
+    left: 10px;
+    top: -10px;
+    cursor: default;
+}
+
+.edu-txt, .place-txt, .basic-txt, .contact-txt{
+    cursor: default;
+    color: rgb(0, 0, 0);
+}
+
+.social-container{
+    display: flex;
+    position: absolute;
+    left: 55rem;
+    top: 10.4rem;
+    box-shadow: 3px 3px 10px 3px #8A663F;
+    background-color: white;
+    border-radius: 20px;
+    height: 50%;
+}
+
+.social{
+    text-align: center;
+    width: 270px;
+    height: 40px;
+    border: 1px solid #8A663F;
+    background-color: #8A663F;
+    color: white;
+    cursor: default;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.social h3{
+    position: relative;
+    left: 0px;
+}
+
+.icon-container{
+    position: absolute;
+    top: 50px;
+    right: 220px;
+}
+
+.icon-1, .icon-2, .icon-3{
+    color: black;
+    margin-top: 10px;
+    font-size: 40px;
+    background-color: #8A663F;
+    border-radius: 80%;
+    width: 150%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.icon-1 a, .icon-2 a, .icon-3 a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.txt-1, .txt-2, .txt-3{
+    position: absolute;
+    left: 70px;
+    cursor: default;
+    font-size: 20px;
+}
+
+.txt-1{
+    top: 5px;
+}
+
+.txt-2{
+    top: 4.8rem;
+}
+
+.txt-3{
+    top: 8.8rem;
+}
+
+/*================================================MUSIC===============================================*/
+
+#music {
+    height: 95vh;
+    width: 100%;
+    margin-top: 5rem;
+}
+.music-title-container {
+    height: 253px;
+    display: flex;
+    justify-content: center;
+}
+.music-container{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    top: 20rem;
+}
+
+.music-title{
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    border: 1px solid #8A663F;
+    background-color: #8A663F;
+    color: white;
+    cursor: default;
+    border-radius: 20px;
+  
+}
+
+.music-title h3{
+    left: 2px;
+}
+
+.music-1-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: max-content;
+    
+}
+
+.music-1{
+    margin-top: -80px;
+}
+
+.goback-btn {
+    width: 24px;
+    height: 24px;
+    background: url('https://static.thenounproject.com/png/1240271-200.png') no-repeat center center;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+}

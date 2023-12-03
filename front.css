@@ -1,0 +1,68 @@
+body {
+    background-image: url(images/frontbg.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: #F6E5D9;
+    margin: 0;
+    padding: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 10px;
+}
+
+hr {
+    display: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: white;
+    border-bottom: 1px solid black;
+}
+
+.greetings {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    color: rgb(253, 253, 253);
+    text-align: center;
+    padding-left: 10px;
+    margin-top: 20px;
+    right: 8rem;
+    padding-top: 10px;
+}
+
+.proceed-btn {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+}
+
+.proceed {
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid #8A663F;
+    background-color: #8A663F;
+    transition: 0.5s;
+    box-shadow: 0 0 20px #fabc90;
+    color: #fff;
+    border: 1px solid black;
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.proceed:hover {
+    background-position: right center;
+    color: #544541;
+    transform: scale(0.92, 0.92);
+    text-decoration: none;
+}
