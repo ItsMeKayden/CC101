@@ -88,6 +88,31 @@ a{
     transform: scale(0.95,0.95);
 }
 
+@media only screen and (max-width: 600px) {
+    .container-info {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .info-text {
+        padding: 10px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .pic {
+        width: 100%;
+    }
+
+    .btn-container {
+        display: flex;
+        position: absolute;
+        left: 50%;
+        top: 52rem;
+        transform: translateX(-45%);
+    }    
+}
+
 /*================================================ABOUT===============================================*/
 #about{
     height: 95vh;
@@ -209,6 +234,49 @@ h3{
     top: 8.8rem;
 }
 
+@media only screen and (max-width: 600px) {
+    .container-about {
+        padding: 0 20px;
+        font-size: 14px;
+    }
+
+    .about-content {
+        margin-left: 20px;
+    }
+
+    .edu, .place, .basic-info, .contact {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .social-container {
+        left: 20px;
+        top: 40rem;
+        bottom: 20px;
+        width: calc(100% - 40px);
+    }
+    .icon-container {
+        left: 20px;
+    }
+
+    .icon-1, .icon-2, .icon-3{
+        color: black;
+        margin-top: 10px;
+        font-size: 40px;
+        background-color: #8A663F;
+        border-radius: 80%;
+        width: 450%;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .btn-container {
+        position: absolute;
+        left: 50%;
+        top: 52rem;
+        transform: translateX(-50%);
+    }
+}
 /*================================================MUSIC===============================================*/
 
 #music {
@@ -267,4 +335,28 @@ h3{
     top: 10px;
     left: 10px;
     z-index: 1;
+}
+
+@media only screen and (max-width: 600px) {
+    #music {
+        margin-top: 40rem;
+    }
+
+    .music-title-container {
+        height: auto;
+    }
+
+    .music-title{
+        border: none;
+        background-color: #ffffff00;
+        color: #8a663f;
+    }
+    
+    .music-1-container {
+        flex-direction: column; 
+    }
+
+    .music-1 {
+        margin-top: 10px;
+    }
 }
